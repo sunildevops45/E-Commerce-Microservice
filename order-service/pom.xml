@@ -44,11 +44,6 @@
 
 		<!-- Security Dependencies  -->
 		<!-- Link - https://github.com/rajumb0232/E-Commerce-Microservice/packages/2464538 -->
-		<dependency>
-			<groupId>com.rajugowda</groupId>
-			<artifactId>shared-token-validation-lib</artifactId>
-			<version>1.0.0</version>
-		</dependency>
 
 		<!-- Cache Dependencies -->
 		<dependency>
