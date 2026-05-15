@@ -2,7 +2,16 @@ server:
   port: 8888
 
 spring:
+  application:
+    name: config-server
+
   cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        prefer-ip-address: true
+
     config:
       server:
         git:
